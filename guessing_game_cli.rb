@@ -18,9 +18,9 @@ end
 end
 
 def run_guessing_game
-generate_num = comp_num
+generate_num 
 prompt_user
 input = gets.chomp
-result(input,comp_num)
+result(input, generate_num)
 end
 
