@@ -7,18 +7,20 @@ def prompt_user
   puts "Guess a number"
 end
 
-
-
-def run_guessing_game
-generate_num
-prompt_user
-input = gets.chomp
-if input == generate_num
+def result(input, generate_num)
+  if input == generate_num
   puts "You guessed the correct number!"
-elsif prompt_user == "exit" 
+elsif input == "exit" 
   puts "Goodbye!"
 else 
   "Sorry! The computer guessed #{generate_num}"
 end
+end
+
+def run_guessing_game
+generate_num = comp_num
+prompt_user
+input = gets.chomp
+result(input,comp_num)
 end
 
