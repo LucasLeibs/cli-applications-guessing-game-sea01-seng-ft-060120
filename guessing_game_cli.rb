@@ -12,7 +12,7 @@ end
 def run_guessing_game
 generate_num
 prompt_user
-
+input = gets.chomp
 if prompt_user == generate_num
   puts "You guessed the correct number!"
 elsif prompt_user == "exit" 
