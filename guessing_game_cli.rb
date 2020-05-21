@@ -5,15 +5,15 @@ end
 
 def run_guessing_game
 prompt_user
-rand(6) + 1.to_s 
+number = rand(6) + 1.to_s 
 input = gets.chomp
 
-if input == rand(6) + 1.to_s 
+if input == number
   puts "You guessed the correct number!"
 elsif input == "exit" 
   puts "Goodbye!"
 else 
-  "Sorry! The computer guessed #{rand(6) + 1.to_s}"
+  "Sorry! The computer guessed #{number}"
 end
 end
 
