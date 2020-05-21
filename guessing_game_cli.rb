@@ -13,7 +13,7 @@ if input == rand(6) + 1.to_s
 elsif input == "exit" 
   puts "Goodbye!"
 else 
-  "Sorry! The computer guessed "
+  "Sorry! The computer guessed #{rand(6) + 1.to_s}"
 end
 end
 
