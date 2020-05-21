@@ -1,26 +1,20 @@
-def generate_num
-  rand(6) + 1
-end
-
-# Code your solution here!
 def prompt_user
-  puts "Guess a number"
+  puts "Guess a number between 1 and 6"
 end
 
-def result(input, generate_num)
-  if input == generate_num
+
+def run_guessing_game
+rand(6) + 1.to_s = comp
+prompt_user
+input = gets.chomp
+
+if input == comp
   puts "You guessed the correct number!"
 elsif input == "exit" 
   puts "Goodbye!"
 else 
-  "Sorry! The computer guessed #{generate_num}"
+  "Sorry! The computer guessed #{comp}"
 end
 end
 
-def run_guessing_game
-generate_num 
-prompt_user
-input = gets.chomp
-result(input, generate_num)
-end
 
