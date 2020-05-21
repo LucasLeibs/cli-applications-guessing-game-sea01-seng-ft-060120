@@ -12,7 +12,7 @@ if input == number.to_s
   puts "You guessed the correct number!"
 elsif input == "exit" 
   puts "Goodbye!"
-else input != "exit "
+else input != "exit" || number.to_s
   "Sorry! The computer guessed #{number}"
 end
 end
