@@ -5,7 +5,6 @@ end
 # Code your solution here!
 def prompt_user
   puts "Guess a number"
-   gets.chomp
 end
 
 
