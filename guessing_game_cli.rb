@@ -13,7 +13,7 @@ if input == number.to_s
 elsif input == "exit" 
   puts "Goodbye!"
 else 
-  "Sorry! The computer guessed #{number_to_s}"
+  "Sorry! The computer guessed #{number.to_s}"
 end
 end
 
