@@ -1,6 +1,3 @@
-def prompt_user
-  puts "Guess a number between 1 and 6"
-end
 
 
 def run_guessing_game
@@ -18,3 +15,6 @@ end
 end
 
 
+def prompt_user
+  puts "Guess a number between 1 and 6"
+end
