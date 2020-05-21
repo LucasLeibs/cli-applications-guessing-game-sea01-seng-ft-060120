@@ -4,7 +4,7 @@ end
 
 
 def run_guessing_game
-rand(6) + 1.to_s 
+
 prompt_user
 input = gets.chomp
 
