@@ -4,16 +4,16 @@ end
 
 
 def run_guessing_game
-rand(6) + 1.to_s = comp
+rand(6) + 1.to_s 
 prompt_user
 input = gets.chomp
 
-if input == comp
+if input == rand(6) + 1.to_s 
   puts "You guessed the correct number!"
 elsif input == "exit" 
   puts "Goodbye!"
 else 
-  "Sorry! The computer guessed #{comp}"
+  "Sorry! The computer guessed "
 end
 end
 
