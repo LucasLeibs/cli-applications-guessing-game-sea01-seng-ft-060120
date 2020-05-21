@@ -5,7 +5,7 @@ end
 
 def run_guessing_game
 prompt_user
-number = rand(6) + 1.
+number = rand(6) + 1
 input = gets.chomp
 
 if input == number
