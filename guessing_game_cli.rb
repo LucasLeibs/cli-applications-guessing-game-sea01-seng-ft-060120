@@ -4,8 +4,8 @@ end
 
 
 def run_guessing_game
-
 prompt_user
+rand(6) + 1.to_s 
 input = gets.chomp
 
 if input == rand(6) + 1.to_s 
