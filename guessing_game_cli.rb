@@ -4,7 +4,7 @@ end
 
 
 def run_guessing_game
-puts "Guess a number between 1 and 6"
+prompt_user
 number = rand(6) + 1
 input = gets.chomp
 
